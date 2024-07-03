@@ -92,6 +92,8 @@ const datas =({
  test2.name.splice(0,3,'1','2','3')
  console.log(test2)
 
+ 
+
 
 
 
