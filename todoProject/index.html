@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+    <h1>js project workshop</h1>
+    <div>
+        <input type="text" name="todoinput" id="todoInput"
+        placeholder="Enter todo">
+        <button type="submit" onclick="addTask()">Add</button>
+    </div>
+    <div>
+        <label for="searchInput">Search:</label>
+        <input type="text" name="searchInput" oninput="filterTask()"
+        id="searchInput">
+    </div>
+
+    <ul id="todoList"></ul>
+    <div>
+        <p>Total Tasks : <span id="totalTasks">0</span></p>
+        <p>Completed Tasks : <span id="completedTasks">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body> 
+</html>
